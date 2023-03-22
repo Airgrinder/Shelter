@@ -1,6 +1,7 @@
 header {
   height: 90px;
   width: 1280px;
+  z-index: 1;
 }
 
 .wrapper {
@@ -42,12 +43,13 @@ header {
   font-size: 15px;
   line-height: 160%;
   text-decoration: none;
-  color: #FAFAFA;
+  color: #CDCDCD;
 }
 
 .header-nav .active-page {
+  color: #FAFAFA;
   text-decoration: underline #F1CDB3;
-  text-underline-offset: 5px;
+  text-underline-offset: 7px;
   text-decoration-thickness: 3px;
 }
 
