@@ -1,0 +1,53 @@
+header {
+  height: 90px;
+  width: 1280px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo {
+  margin: 30px 0 0 40px;
+}
+
+.header-logo h1 {
+  font-family: 'Georgia';
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  color: #F1CDB3;
+}
+
+.header-logo span {
+  margin: 9px 0 0 4px;
+  font-family: 'Arial';
+  font-size: 13px;
+  display: flex;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+}
+
+.header-nav {
+  margin: 46px 40px 0 0;
+  width: 443px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-nav a {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  text-decoration: none;
+  color: #FAFAFA;
+}
+
+.header-nav .active-page {
+  text-decoration: underline #F1CDB3;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 3px;
+}
+
