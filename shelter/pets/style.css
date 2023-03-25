@@ -14,3 +14,12 @@ body {
   align-items: center;
   flex-wrap: wrap;
 }
+
+button {
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #FDDCC4;
+  border: 2px solid #FDDCC4;
+}

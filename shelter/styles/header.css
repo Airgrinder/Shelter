@@ -44,6 +44,11 @@ header {
   line-height: 160%;
   text-decoration: none;
   color: #CDCDCD;
+  transition: 0.3s;
+}
+
+.header-nav a:hover {
+  color: #FAFAFA;
 }
 
 .header-nav .active-page {
