@@ -47,6 +47,11 @@
   flex-direction: column;
   background: #FAFAFA;
   border-radius: 9px;
+  transition: .3s;
+}
+
+.our-friends-cards-card:hover {
+  background: #FFFFFF;
 }
 
 .our-friends-cards-card:nth-child(3) {

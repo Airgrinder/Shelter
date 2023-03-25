@@ -1,0 +1,56 @@
+.how-help {
+  width: 1280px;
+  height: 611px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.how-help-title h2 {
+  margin: 81px 0 0 0;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+
+.how-help-list {
+  width: 1142px;
+  margin: 58px 0 0 116px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.how-help-list-item {
+  margin: 0 120px 55px 0;
+  height: 113px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.how-help-list-item:nth-child(5) {
+  margin: 0 20px 55px 0;
+
+}
+
+.how-help-list-item:nth-child(6) {
+  margin: 0 120px 0 83px;
+
+}
+
+.how-help-list-item span {
+  font-family: 'Georgia';
+  font-size: 20px;
+  letter-spacing: 0.06em;
+  color: #545454;
+  line-height: 115%;
+}
