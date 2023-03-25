@@ -1,0 +1,106 @@
+.our-friends {
+  width: 1280px;
+  height: 877px;
+  display: flex;
+  justify-content: center;
+  background: #F6F6F6;
+}
+
+.our-friends-wrapper {
+  margin: 81px 0 0 0;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.our-friends-title {
+  display: flex;
+}
+
+.our-friends-title h2 {
+  width: 400px;
+  height: 90px;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+
+.our-friends-cards {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.our-friends-cards-card {
+  margin: 59px 0 0 0;
+  width: 270px;
+  height: 435px;
+  display: flex;
+  flex-direction: column;
+  background: #FAFAFA;
+  border-radius: 9px;
+}
+
+.our-friends-cards-card:nth-child(3) {
+  margin: 59px 37px 0;
+}
+
+.our-friends-cards-card span {
+  margin: 30px 0 0 0;
+  font-family: 'Georgia';
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+
+.our-friends-cards-card-button {
+  margin: 30px 0 0 0;
+  place-self: center;
+  width: 187px;
+  height: 52px;
+  border: 2px solid #F1CDB3;
+  border-radius: 100px;
+  background: #FFFFFF;
+  font-family: 'Georgia';
+  font-size: 17px;
+  letter-spacing: 0.06em;
+  color: #292929;
+}
+
+.arrow {
+  margin: 251px 0 0 0;
+  width: 52px;
+  height: 52px;
+  border: none;
+  background: none;
+}
+
+.mobile-arrow {
+  display: none;
+}
+
+.our-friends-button button {
+  margin: 60px 0 0 0;
+  width: 261px;
+  height: 52px;
+  background: #F1CDB3;
+  border-radius: 100px;
+  border: 0;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #292929;
+}
