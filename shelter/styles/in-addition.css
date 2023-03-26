@@ -1,0 +1,80 @@
+.in-addition {
+  width: 100%;
+  height: 462px;
+  background: #F6F6F6;
+  display: flex;
+  justify-content: center;
+}
+
+.in-addition-wrapper {
+  width: 1280px;
+  display: flex;
+}
+
+.donation-dog {
+  margin: 91px 0 0 183px;
+  width: 505px;
+  height: 261px;
+  background-image: url("../assets/images/donation-dog.png");
+}
+
+.donation-content {
+  margin: 81px 0 0 30px;
+  width: 380px;
+}
+
+.donation-content h2 {
+  font-family: 'Georgia';
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+
+.donation-content h5 {
+  margin: 18px 0 0 0;
+  font-family: 'Georgia';
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+
+.bank-card {
+  margin: 20px 0 0 0;
+  width: 349px;
+  height: 43px;
+  background: #F1CDB3;
+  border-radius: 9px;
+  display: flex;
+}
+
+.bank-card a {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #545454;
+  text-decoration:none;
+}
+
+.bank-card img {
+  margin: 0 15px 0 15px;
+}
+
+.bank-info {
+  margin: 20px 0 0 0;
+  font-family: 'Arial';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #B2B2B2;
+}
