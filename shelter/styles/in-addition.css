@@ -1,10 +1,13 @@
 .in-addition {
-  width: 1280px;
+  width: 100%;
   height: 462px;
   background: #F6F6F6;
+  display: flex;
+  justify-content: center;
 }
 
 .in-addition-wrapper {
+  width: 1280px;
   display: flex;
 }
 

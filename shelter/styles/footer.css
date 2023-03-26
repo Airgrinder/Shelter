@@ -1,0 +1,77 @@
+footer {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  background: url("../assets/images/noise_transparent@2x.png"), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #211F20;
+}
+
+.footer-wrapper {
+  width: 1280px;
+  margin: 57px 0 0 81px;
+  display: flex;
+}
+
+footer h3 {
+  font-family: 'Georgia';
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 129%;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+}
+
+footer a {
+  text-decoration: none;
+  font-family: 'Georgia';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  color: #F1CDB3;
+  display: flex;
+  align-items: center;
+}
+
+.email {
+  margin: 42px 0 0 0;
+}
+
+.email img {
+  margin: 0 20px 0 0;
+}
+
+.phone {
+  margin: 42px 0 0 0;
+}
+
+.phone img {
+  margin: 0 20px 0 0;
+}
+
+.location {
+  margin: 0 0 0 161px;
+}
+
+.location-boston {
+  margin: 32px 0 0 -1px;
+}
+
+.location-boston img {
+  margin: 0 20px 0 0;
+}
+
+.location-lindon {
+  margin: 33px 0 0 -1px;
+}
+
+.location-lindon img {
+  margin: 0 20px 0 0;
+}
+
+.footer-puppy {
+  margin: -17px 0 0 167px;
+  width: 300px;
+  height: 310px;
+  background-image: url("../assets/images/footer-puppy.svg");
+}
