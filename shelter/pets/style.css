@@ -1,0 +1,51 @@
+@import "../styles/header.css";
+@import "../styles/pets.css";
+@import "../styles/footer.css";
+
+* {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+button {
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #FDDCC4;
+  border: 2px solid #FDDCC4;
+}
+
+header {
+  height: 120px;
+}
+
+.header-logo span,.header-nav .active-page  {
+  color: #292929;
+}
+
+.header-logo h1, .header-nav a {
+  color: #545454;
+}
+
+.header-nav a:hover {
+  color: #292929;
+}
+
+.header-nav .active-page:hover {
+  color: #292929;
+}
+
+.preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}
