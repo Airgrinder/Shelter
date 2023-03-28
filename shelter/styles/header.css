@@ -42,13 +42,19 @@ header {
   font-weight: 400;
   font-size: 15px;
   line-height: 160%;
-  text-decoration: none;
+  text-decoration: none #F1CDB3;
   color: #CDCDCD;
   transition: 0.3s;
 }
 
 .header-nav a:hover {
   color: #FAFAFA;
+}
+
+.header-nav a:active {
+  text-decoration: underline #F1CDB3;
+  text-underline-offset: 7px;
+  text-decoration-thickness: 3px;
 }
 
 .header-nav .active-page {

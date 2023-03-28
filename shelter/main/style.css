@@ -8,6 +8,7 @@
 
 * {
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -20,10 +21,6 @@ body {
 
 button {
   transition: 0.3s;
-}
-
-* {
-  scroll-behavior: smooth;
 }
 
 button:hover {

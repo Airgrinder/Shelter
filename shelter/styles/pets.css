@@ -54,6 +54,11 @@
   background: #FFFFFF;
 }
 
+.main-cards-card:hover button {
+  background: #FDDCC4;
+  border: 2px solid #FDDCC4;
+}
+
 .main-cards-card span {
   margin: 30px 0 30px 0;
 }
@@ -113,5 +118,4 @@
 .disabled:hover {
   background: none;
   cursor: default;
-
 }
