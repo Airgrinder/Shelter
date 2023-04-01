@@ -53,3 +53,32 @@
   color: #545454;
   line-height: 115%;
 }
+
+@media (max-width: 1279px) {
+
+  .how-help {
+    width: 768px;
+    height: 779px;
+  }
+
+  .how-help-list {
+    width: auto;
+    margin: 58px 0 0 0;
+    justify-content: center;
+  }
+
+  .how-help-list-item {
+    width: 170px;
+    height: 113px;
+    margin: 0 30px 55px;
+  }
+
+  .how-help-list-item:nth-child(5) {
+    margin: 0 30px;
+  }
+
+  .how-help-list-item:nth-child(6) {
+    margin: 0 30px;
+  }
+
+}
