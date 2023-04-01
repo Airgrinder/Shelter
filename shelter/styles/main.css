@@ -89,3 +89,58 @@
   }
 
 }
+
+@media (max-width: 767px) {
+
+  .main {
+    align-self: baseline;
+    height: 823px;
+  }
+
+  .main-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 107px;
+  }
+
+  .main-menu {
+    margin: 150px 0 0 -10px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-title {
+    display: flex;
+    justify-content: center;
+    height: 107px;
+  }
+
+  .main-title h2 {
+    font-size: 25px;
+    text-align: center;
+    width: 229px;
+    margin: 0 0 1px 12px;
+    letter-spacing: 0.06em;
+  }
+
+  .main-description {
+    margin: -1px -10px 0 0;
+    text-align: center;
+    width: 299px;
+    height: 96px;
+  }
+
+  .main-button {
+    margin: 42px -8px 0 0;
+  }
+
+  .cute-puppy-wrap {
+    margin: 444px 10px 0 0;
+    width: 260px;
+    align-self: self-end;
+  }
+
+}

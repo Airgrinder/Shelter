@@ -7,8 +7,8 @@ footer {
 }
 
 .footer-wrapper {
-  width: 1280px;
-  margin: 57px 0 0 81px;
+  width: 1200px;
+  padding: 57px 0 0 0;
   display: flex;
 }
 
@@ -85,7 +85,8 @@ footer a {
   .footer-wrapper {
     width: 768px;
     height: 609px;
-    margin: 30px 0 0 0;
+    margin: 0 0 0 0;
+    padding: 30px 0 0 0;
     flex-wrap: wrap;
   }
 
@@ -101,6 +102,69 @@ footer a {
     align-self: end;
     margin-left: auto;
     margin-right: auto;
+  }
+
+}
+
+@media (max-width: 767px) {
+
+  .footer-wrapper {
+    height: 779px;
+    width: 320px;
+    justify-content: center;
+  }
+
+  .contacts {
+    margin: 0;
+  }
+
+  .contacts h3 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .contacts h3 br {
+    display: none;
+  }
+
+  .email, .phone {
+    display: flex;
+    justify-content: center;
+  }
+
+  .phone {
+    margin-top: 43px;
+  }
+
+  .location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .location h3 {
+    margin: 12px 0 0 0;
+    width: 280px;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .location h3 br {
+    display: none;
+  }
+
+  .location-boston {
+    margin: 40px 0 0 -5px;
+  }
+
+  .location-lindon {
+    margin: 39px 0 0 -29px;
+  }
+
+  .footer-puppy {
+    width: 260px;
+    height: 269px;
+    background-size: cover;
   }
 
 }

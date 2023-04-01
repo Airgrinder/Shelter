@@ -35,10 +35,6 @@ button:hover {
   -o-transition: none !important;
 }
 
-@media (max-width: 1279px) {
-
-  ::-webkit-scrollbar {
-    display: none;
-  }
-
+::-webkit-scrollbar {
+  display: none;
 }

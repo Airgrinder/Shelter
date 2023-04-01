@@ -68,6 +68,10 @@ header {
   text-decoration-thickness: 3px;
 }
 
+#burger-menu-toggler {
+  visibility: hidden;
+}
+
 @media (max-width: 1279px) {
 
   header {
@@ -83,4 +87,53 @@ header {
     width: 442px;
   }
 
+}
+
+@media (max-width: 767px) {
+
+  header {
+    align-self: baseline;
+  }
+
+  .header-logo {
+    margin: 30px 0 0 20px;
+  }
+
+  .header-nav {
+    display: none;
+  }
+
+  .burger-menu {
+    display: block;
+    margin: 42px 20px 0 0;
+    width: 30px;
+  }
+
+  .burger-menu-button {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 30px;
+    z-index: 1;
+  }
+
+  .burger-menu-button > span,
+  .burger-menu-button > span::before,
+  .burger-menu-button > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #F1CDB3;
+  }
+
+  .burger-menu-button > span::before {
+    content: '';
+    top: -10px;
+  }
+
+  .burger-menu-button > span::after {
+    content: '';
+    top: 10px;
+  }
 }

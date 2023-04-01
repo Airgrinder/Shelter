@@ -82,3 +82,44 @@
   }
 
 }
+
+@media (max-width: 767px) {
+
+  .how-help {
+    width: 320px;
+    height: 745px;
+  }
+
+  .how-help-title h2 {
+    margin: 42px -1px 0 0;
+    font-size: 25px;
+  }
+
+  .how-help-list {
+    margin: 41px 0 0 0;
+    justify-content: flex-start;
+  }
+
+  .how-help-list-item {
+    margin: 0 15px 30px;
+    width: 130px;
+    height: 87px;
+  }
+
+  .how-help-list-item:nth-child(5) {
+    margin: 0 15px 30px;
+  }
+
+  .how-help-list-item:nth-child(6) {
+    margin: 0 15px 30px;
+  }
+
+  .how-help-list-item img {
+    height: 50px;
+  }
+
+  .how-help-list-item span {
+    font-size: 15px;
+  }
+
+}
