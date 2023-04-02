@@ -44,9 +44,19 @@ header {
   color: #292929;
 }
 
+.burger-menu-button > span,
+.burger-menu-button > span::before,
+.burger-menu-button > span::after {
+  background-color: #000000;
+}
+
 .preload * {
   -webkit-transition: none !important;
   -moz-transition: none !important;
   -ms-transition: none !important;
   -o-transition: none !important;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
