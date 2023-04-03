@@ -72,7 +72,7 @@
   }
 
   .about-wrapper {
-    margin: 42px 0 0 1px;
+    margin: 42px 0 0 0;
     display: flex;
     flex-direction: column;
     align-items: center;
