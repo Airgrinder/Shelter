@@ -131,7 +131,7 @@
   }
 
   .main-cards {
-    width: 333px;
+    width: 666px;
     margin: 28px 0 0 0;
     justify-content: center;
   }
@@ -162,6 +162,7 @@
   }
 
   .main-cards {
+    width: 333px;
     margin: 41px 0 0 0;
   }
 
