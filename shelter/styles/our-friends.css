@@ -40,6 +40,7 @@
 }
 
 .our-friends-cards-card {
+  position: relative;
   margin: 59px 0 0 0;
   width: 270px;
   height: 435px;
