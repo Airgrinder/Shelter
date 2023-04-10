@@ -31,7 +31,7 @@ next = randomizer(next)
 function slideCycleLeft(current) {
     setTimeout(() => {
         for (const card of cards) {
-            card.style.left = "-100%";
+            card.style.left = "-200%";
             card.style.opacity = "0";
         }
     }, 10);
@@ -43,7 +43,7 @@ function slideCycleLeft(current) {
     }, 100);
     setTimeout(() => {
         for (const card of cards) {
-            card.style.left = "100%";
+            card.style.left = "200%";
         }
     }, 600);
     setTimeout(() => {
@@ -57,7 +57,7 @@ function slideCycleLeft(current) {
 function slideCycleRight(current) {
     setTimeout(() => {
         for (const card of cards) {
-            card.style.left = "100%";
+            card.style.left = "200%";
             card.style.opacity = "0";
         }
     }, 10);
@@ -69,7 +69,7 @@ function slideCycleRight(current) {
     }, 100);
     setTimeout(() => {
         for (const card of cards) {
-            card.style.left = "-100%";
+            card.style.left = "-200%";
         }
     }, 600);
     setTimeout(() => {
