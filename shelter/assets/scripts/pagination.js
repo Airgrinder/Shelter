@@ -73,9 +73,9 @@ function moveSliderEnd() {
 function checkWidth() {
     const windowWidth = window.innerWidth;
 
-    if (windowWidth > 1279) {
+    if (windowWidth > 1279.98) {
         numOfCards = 8;
-    } else if (windowWidth > 767) {
+    } else if (windowWidth > 767.98) {
         numOfCards = 6;
     } else {
         numOfCards = 3;
