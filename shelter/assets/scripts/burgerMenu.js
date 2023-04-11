@@ -21,9 +21,27 @@ export function showSideMenu() {
     }
 }
 
-burgerBG.addEventListener('touchstart', showSideMenu);
-burger.addEventListener('touchstart', showSideMenu);
+
+burgerBG.addEventListener('click', showSideMenu)
+burger.addEventListener('click', showSideMenu)
 for (const link of links) {
-    link.addEventListener('touchend', showSideMenu);
+    link.addEventListener('mouseup', showSideMenu)
+}
+burgerBG.addEventListener('touchstart', event=>{
+    event.preventDefault();
+    event.stopPropagation();
+    showSideMenu(event);
+});
+burger.addEventListener('touchstart', event=>{
+    event.preventDefault();
+    event.stopPropagation();
+    showSideMenu(event);
+});
+for (const link of links) {
+    link.addEventListener('touchend', event=>{
+        event.preventDefault();
+        event.stopPropagation();
+        showSideMenu(event);
+    });
 }
 

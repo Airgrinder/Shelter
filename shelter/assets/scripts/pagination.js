@@ -1,3 +1,4 @@
+import {popup} from './popup.js'
 import json from '../json/pets.json' assert {type: "json"};
 
 let first = document.getElementsByClassName("main-buttons-first")[0]
@@ -6,6 +7,7 @@ let next = document.getElementsByClassName("main-buttons-next")[0]
 let last = document.getElementsByClassName("main-buttons-last")[0]
 let cards = document.getElementsByClassName("main-cards")[0]
 let page = document.getElementsByClassName("main-buttons-current")[0]
+let card = document.getElementsByClassName("main-cards-card")
 
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -44,6 +46,11 @@ export function renderCards(event) {
         cards.appendChild(sliderItem);
     }
     page.innerHTML = sliderIndex / numOfCards
+
+
+    for (const cardElement of card) {
+        cardElement.addEventListener('click', popup)
+    }
 }
 
 function moveSliderLeft() {
@@ -80,7 +87,6 @@ function checkWidth() {
     } else {
         numOfCards = 3;
     }
-    console.log(numOfCards)
     sliderIndex = numOfCards
     renderCards()
 }
