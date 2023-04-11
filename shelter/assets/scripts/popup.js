@@ -5,7 +5,8 @@ let body = document.getElementsByTagName("body")[0]
 
 
 export function popup(event) {
-    body.style.overflow = "hidden"
+    console.log(33333)
+    // body.style.overflow = "hidden"
 
     let name = ''
 
@@ -20,6 +21,8 @@ export function popup(event) {
         name = event.target.children[1].innerHTML
     }
     let arr = findObj(name)[0]
+
+    console.log(popupLanding)
 
     const popupElement = document.createElement('div')
     popupElement.classList.add('popup')

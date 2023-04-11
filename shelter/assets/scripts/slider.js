@@ -1,3 +1,4 @@
+import {popup} from './popup.js'
 import json from '../json/pets.json' assert {type: "json"};
 
 let leftArrow = document.getElementsByClassName("arrow-left")
@@ -89,6 +90,11 @@ function randomizer(avoid) {
         numbers.splice(numbers.indexOf(randomNumber), 1);
     }
     return randomNumbers;
+}
+
+for (const card of cards) {
+    console.log(123)
+    card.addEventListener('click', popup)
 }
 
 for (const element of rightArrow) {
